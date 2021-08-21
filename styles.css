@@ -1,0 +1,61 @@
+:root{
+    --width-full: 600px;
+}
+body {
+    margin: 0;
+    background-color: #9CA3AF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: var(--width-full);
+    align-items: center;
+    background-color: red;
+    padding: 1rem;
+    margin: auto;
+}
+
+#cash {
+    display: flex;
+}
+
+input {
+    display: block;
+    width: 80%;
+    padding: 1rem;
+    height: 25px;
+    margin: 1rem;
+}
+label {
+    font-weight: bold;
+    font-size: large;
+    border: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border:none;
+    margin: 1rem;
+}
+
+table {
+    border: 1px solid black;
+    width: 80%;
+}
+
+table caption {
+    margin: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+table th {
+    border: 1px solid black;
+}
+table td {
+    border: 1px solid black;
+}
+

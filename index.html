@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Cash register</h1>
+    
+    <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+    
+    <label for="bill-amt">Bill Amount:</label>
+    <input id="bill-amt" type="number" required />
+    <button id="next">next</button>
+    <p id="err-message"></p>
+    </div>
+    <div class="cash-container container" id="cash">
+    <label for="cash-received">Cash Given:</label>
+    <input id="cash-received" type="number" required/>
+    <button id="check-btn"> check </button>
+    <p id="error-message"></p>
+    </div>
+    <div class="change-container container" id="change">
+    <table>
+        <caption>Return Change:</caption>
+        <tr>
+            <th>No of notes</th>
+            <td class="noOfNotes"></td>
+            <td class="noOfNotes"></td>
+            <td class="noOfNotes"></td>
+            <td class="noOfNotes"></td>
+            <td class="noOfNotes"></td>
+            <td class="noOfNotes"></td>
+            <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+    </table>
+    </div>
+    </div>  
+    <script src="app.js"></script>
+</body>
+</html>
